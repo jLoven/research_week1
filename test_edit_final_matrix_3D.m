@@ -1,3 +1,8 @@
+% Jackie Loven, jl2742, 5 February 2016
+
+% 3D Test cases for the function that ensures the final matrix has the right layer formation.
+
+% Create 2 sample matrices: 
 simple3DMatrix = zeros(5, 5, 3);
 simple3DMatrix(:,:,1) = 1;
 simple3DMatrix(:,:,3) = 3;

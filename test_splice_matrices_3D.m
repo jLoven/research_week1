@@ -1,3 +1,8 @@
+% Jackie Loven, jl2742, 5 February 2016
+
+% 3D Test cases for the function that takes a defined chunk of the new matrix and replaces the corresponding chunk in the original matrix.
+
+% Create two sample matrices:
 simple3DMatrix = zeros(5, 5, 3);
 simple3DMatrix(:,:,1) = 1;
 simple3DMatrix(:,:,3) = 3;

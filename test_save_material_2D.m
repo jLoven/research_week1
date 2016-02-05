@@ -1,3 +1,8 @@
+% Jackie Loven, jl2742, 5 February 2016
+
+% 2D Test cases for the function that replaces non-priority materials in the original matrix with the priority material from the new matrix.
+
+% Create 2 sample matrices:
 simpleMatrix = zeros(4, 5);
 simpleMatrix(3:4,:) = 1;
 simpleMatrix(1,:) = 3;
