@@ -20,7 +20,7 @@ function originalMatrix = prioritize_materials_4D(originalMatrix, newMatrix, var
                         isFound = true;
                     end
                 end
-                if (isFound == true)
+                if (isFound == true && (originalMatrix(x, y, z, 1) != newMatrix(x, y, z, 1)))
                     originalMatrix(x, y, z, 1) = newMatrix(x, y, z, 1);
                 end
             end

@@ -20,7 +20,7 @@ function originalMatrix = prioritize_materials_3D(originalMatrix, newMatrix, var
                         isFound = true;
                     end
                 end
-                if (isFound == true)
+                if (isFound == true && (originalMatrix(x, y, z) != newMatrix(x, y, z)))
                     originalMatrix(x, y, z) = newMatrix(x, y, z);
                 end
             end
